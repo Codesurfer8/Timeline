@@ -1,0 +1,46 @@
+{
+  "name": "dom-game",
+  "version": "1.0.0",
+  "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)\r ![CI](https://github.com/codesurfer8/Game-goblin/actions/workflows/web.yml/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "packbuild": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codesurfer8/DnD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Codesurfer8/DnD/issues"
+  },
+  "homepage": "https://github.com/Codesurfer8/DnD#readme"
+}
